@@ -1,0 +1,14 @@
+PODS:
+  - ooVooUIKitPod (0.1.0)
+
+DEPENDENCIES:
+  - ooVooUIKitPod (from `../`)
+
+EXTERNAL SOURCES:
+  ooVooUIKitPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ooVooUIKitPod: 178ae449dd842b20e6a6b94574ee7aa0b87a4884
+
+COCOAPODS: 0.39.0

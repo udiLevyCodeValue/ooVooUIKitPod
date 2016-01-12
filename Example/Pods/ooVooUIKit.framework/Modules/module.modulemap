@@ -1,0 +1,6 @@
+framework module ooVooUIKit {
+  umbrella header "ooVooUIKit.h"
+
+  export *
+  module * { export * }
+}

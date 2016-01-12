@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "ooVooUIKitPod"
   s.version          = "0.1.0"
-  s.summary          = "A short description of ooVooUIKitPod."
+  s.summary          = "ooVooUIKitPod Helps the developer create a ui for oovoo sdk."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+Now you can create easly a UI  for oovoo sdk framework Just use pull this pod and enjoy
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ooVooUIKitPod"
+  s.homepage         = "https://github.com/udiLevyCodeValue/ooVooUIKitPod"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Udi" => "udil@codevalue.net" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ooVooUIKitPod.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/udiLevyCodeValue/ooVooUIKitPod.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
