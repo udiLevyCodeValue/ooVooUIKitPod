@@ -11,7 +11,6 @@
 		122EAA11E2FB6475E8FF87601C6F4FB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		418023F11126E5A50DE9792509F10567 /* ooVooUIKitPod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 115E3ABD9E15F0B7073F4A75260BB387 /* ooVooUIKitPod.bundle */; };
 		623A1197232DD28BE38C563B1F0E34D4 /* ooVooUIKitPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CDCC1AB8287512FB5F7CCA9A86D0C6 /* ooVooUIKitPod-dummy.m */; };
-		8FB3C183AB6CACBD612F6B4BD7FC9793 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1A22B7A495A6B1EF5969F6232174E /* ReplaceMe.m */; };
 		9192C021FA85774FDFFD42157717AA0B /* Pods-ooVooUIKitPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D0252D7AECDBFAAC83737D299D4822 /* Pods-ooVooUIKitPod_Tests-dummy.m */; };
 		B8942AE8B6E287B2FC9A650FD4EB1F92 /* ooVooUIKitPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40161C2486788AC50C19AD5DC2EC544E /* ooVooUIKitPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D29A2294815387856876A884663BB322 /* Pods-ooVooUIKitPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C67988FD40E4EF6D6E461F04BAED4D13 /* Pods-ooVooUIKitPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -54,8 +53,7 @@
 		9BC1756297C937ADB7EA78F1207CA75D /* Pods_ooVooUIKitPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ooVooUIKitPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C67988FD40E4EF6D6E461F04BAED4D13 /* Pods-ooVooUIKitPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ooVooUIKitPod_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DAE1A22B7A495A6B1EF5969F6232174E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		DBC1946B1C45671F00EEF60B /* ooVooUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ooVooUIKit.framework; sourceTree = "<group>"; };
+		DBC1946B1C45671F00EEF60B /* ooVooUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ooVooUIKit.framework; path = ../../Example/Pods/ooVooUIKit.framework; sourceTree = "<group>"; };
 		DEEC23AD0B39FBFE9A13CA87B29DB9A0 /* Pods-ooVooUIKitPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ooVooUIKitPod_Tests-resources.sh"; sourceTree = "<group>"; };
 		ECBF100D66AD30A39678F35711930C9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6CDCC1AB8287512FB5F7CCA9A86D0C6 /* ooVooUIKitPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ooVooUIKitPod-dummy.m"; sourceTree = "<group>"; };
@@ -110,7 +108,7 @@
 		2F9B6D8BF306E1B9A6C03B819FB7F37B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DAE1A22B7A495A6B1EF5969F6232174E /* ReplaceMe.m */,
+				DBC1946B1C45671F00EEF60B /* ooVooUIKit.framework */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -177,7 +175,6 @@
 		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DBC1946B1C45671F00EEF60B /* ooVooUIKit.framework */,
 				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
 			);
 			name = iOS;
@@ -337,7 +334,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				623A1197232DD28BE38C563B1F0E34D4 /* ooVooUIKitPod-dummy.m in Sources */,
-				8FB3C183AB6CACBD612F6B4BD7FC9793 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
