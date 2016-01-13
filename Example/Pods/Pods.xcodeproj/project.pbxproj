@@ -7,114 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		122EAA11E2FB6475E8FF87601C6F4FB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		3039B27BD3AE204A71EB4937EB65CC7F /* Message.h in Headers */ = {isa = PBXBuildFile; fileRef = 6772E1795E4A0786DC891CC222C21B83 /* Message.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40FC05468815447A9BEDABA1A0378643 /* ooVooChatViewController.nib in Sources */ = {isa = PBXBuildFile; fileRef = 873D2056F27922E84B818B3DD1C0C6A8 /* ooVooChatViewController.nib */; };
-		4ECEFC642018AFEFA87A81E7DD89FA7C /* ooVooUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E7143FFFC8E6AC48D1630F691C271C /* ooVooUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A1546F230CFDD136C50736E3FFED3AC /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = A3908FAAF0F9FEDB5962C8BE87DE4C59 /* module.modulemap */; };
-		6BA9FEFC9D7D8C8F26919903CE8E6A6C /* ooVooUIKitPod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 115E3ABD9E15F0B7073F4A75260BB387 /* ooVooUIKitPod.bundle */; };
-		9192C021FA85774FDFFD42157717AA0B /* Pods-ooVooUIKitPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D0252D7AECDBFAAC83737D299D4822 /* Pods-ooVooUIKitPod_Tests-dummy.m */; };
-		986D384EFD91556155220C1D0C7D0221 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = 8C10E0FE7D81F7E72D9BDB3693F3AC52 /* CodeResources */; };
-		C46828D43201135BC3D17A0898DC78A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		D29A2294815387856876A884663BB322 /* Pods-ooVooUIKitPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C67988FD40E4EF6D6E461F04BAED4D13 /* Pods-ooVooUIKitPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D520956A9F14E6FDF4210A0EE537C57B /* ooVooUIKit in Sources */ = {isa = PBXBuildFile; fileRef = 609218B382A4FDCF4B36EB244D8D4E53 /* ooVooUIKit */; };
-		DE76BC053F248A3B649603B397CCA556 /* ooVooUIKitPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40161C2486788AC50C19AD5DC2EC544E /* ooVooUIKitPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFBE5DBD8F6684CB4D4051ADAC6FC99C /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = FA2C62A6CC592567626F017F98F7F539 /* Info.plist */; };
-		FA04C1EF49DD6C27BC2D2DCE90B3935E /* ooVooUIKitPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CDCC1AB8287512FB5F7CCA9A86D0C6 /* ooVooUIKitPod-dummy.m */; };
+		13FE48CE1B627C7724AC5063730BAF91 /* Pods-ooVooUIKitPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D0252D7AECDBFAAC83737D299D4822 /* Pods-ooVooUIKitPod_Tests-dummy.m */; };
+		54279EDEFC53D64399FCDDAB533D2484 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9388B34C569259EFDFB28D6177F49140 /* Pods-ooVooUIKitPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C67988FD40E4EF6D6E461F04BAED4D13 /* Pods-ooVooUIKitPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01BBB008E0B0A68E44DAA5C43BD6875B /* PBXContainerItemProxy */ = {
+		60551E9804FD2295292AE4CA28C23AA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 603D06CC38FE9315EE1D27C14106A720;
-			remoteInfo = ooVooUIKitPod;
-		};
-		7D3EF8B9DEC3836EB81B7C5B82F93B7D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0303205F5300AD0F5B8EB5535C2E2C68;
+			remoteGlobalIDString = 7DD4AC0007C3331D8B2EFB661F8B9FFA;
 			remoteInfo = "ooVooUIKitPod-ooVooUIKitPod";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03227F66DC9AA82DF3A6BDF5A597E684 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		115E3ABD9E15F0B7073F4A75260BB387 /* ooVooUIKitPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ooVooUIKitPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DA9FFCD95D6CA991168334A717F4CC7 /* ooVooUIKitPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ooVooUIKitPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E7C6E9D228F0934FAEB3A5BDCFCB1B /* Pods-ooVooUIKitPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ooVooUIKitPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		20531D0DD82620F8DE6FF148EEA95360 /* ooVooUIKitPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ooVooUIKitPod.modulemap; sourceTree = "<group>"; };
-		222F60DE537C65AF4897FA4AE55FA668 /* ooVooUIKitPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ooVooUIKitPod-prefix.pch"; sourceTree = "<group>"; };
-		26E7143FFFC8E6AC48D1630F691C271C /* ooVooUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ooVooUIKit.h; sourceTree = "<group>"; };
 		2C240AFE10CB2D440B7D156D7843235F /* Pods-ooVooUIKitPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ooVooUIKitPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3B828ABC2CF64013248FC26D28E8B17A /* Pods-ooVooUIKitPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ooVooUIKitPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		40161C2486788AC50C19AD5DC2EC544E /* ooVooUIKitPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ooVooUIKitPod-umbrella.h"; sourceTree = "<group>"; };
 		4027C966594A88A89FC64A6BB8133A64 /* Pods-ooVooUIKitPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ooVooUIKitPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5B8CC188FF2B6ED10C7F97B1EB1DAA2D /* Pods-ooVooUIKitPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ooVooUIKitPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5DE23435B6283A4DB49C57100B87E461 /* ooVooUIKitPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ooVooUIKitPod.xcconfig; sourceTree = "<group>"; };
-		609218B382A4FDCF4B36EB244D8D4E53 /* ooVooUIKit */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; path = ooVooUIKit; sourceTree = "<group>"; };
-		6772E1795E4A0786DC891CC222C21B83 /* Message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
 		723FA47673398C6AB202FB01380DB91E /* Pods-ooVooUIKitPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ooVooUIKitPod_Tests.modulemap"; sourceTree = "<group>"; };
 		76D0252D7AECDBFAAC83737D299D4822 /* Pods-ooVooUIKitPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ooVooUIKitPod_Tests-dummy.m"; sourceTree = "<group>"; };
-		873D2056F27922E84B818B3DD1C0C6A8 /* ooVooChatViewController.nib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = ooVooChatViewController.nib; sourceTree = "<group>"; };
-		8C10E0FE7D81F7E72D9BDB3693F3AC52 /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = CodeResources; sourceTree = "<group>"; };
-		915AFDB60C04B151DB5B18585FE4329F /* ooVooUIKitPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ooVooUIKitPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BC1756297C937ADB7EA78F1207CA75D /* Pods_ooVooUIKitPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ooVooUIKitPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3908FAAF0F9FEDB5962C8BE87DE4C59 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		80FB5128BE7162A98C6C9DCF5B329DE7 /* Pods_ooVooUIKitPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ooVooUIKitPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C67988FD40E4EF6D6E461F04BAED4D13 /* Pods-ooVooUIKitPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ooVooUIKitPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DEEC23AD0B39FBFE9A13CA87B29DB9A0 /* Pods-ooVooUIKitPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ooVooUIKitPod_Tests-resources.sh"; sourceTree = "<group>"; };
 		ECBF100D66AD30A39678F35711930C9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6CDCC1AB8287512FB5F7CCA9A86D0C6 /* ooVooUIKitPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ooVooUIKitPod-dummy.m"; sourceTree = "<group>"; };
-		FA2C62A6CC592567626F017F98F7F539 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		42016CF8A5981F3D5EE14C4087FB29D0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C46828D43201135BC3D17A0898DC78A5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		563B38249FC763CF96D483B0C0A701B0 /* Frameworks */ = {
+		26CC25DDB9C7D5EA1236249A41B8A6AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		674E2B1E9CF959E3AF4BA0F77C738877 /* Frameworks */ = {
+		C1A4A90A25C43F6C39A1BDBCFFFDC784 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				122EAA11E2FB6475E8FF87601C6F4FB7 /* Foundation.framework in Frameworks */,
+				54279EDEFC53D64399FCDDAB533D2484 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FA324D348B3BF4FF2853808F9C40EC7 /* _CodeSignature */ = {
-			isa = PBXGroup;
-			children = (
-				8C10E0FE7D81F7E72D9BDB3693F3AC52 /* CodeResources */,
-			);
-			path = _CodeSignature;
-			sourceTree = "<group>";
-		};
-		0FEACFBF0AD2F14E06748AAA2EA7FAB7 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				6772E1795E4A0786DC891CC222C21B83 /* Message.h */,
-				26E7143FFFC8E6AC48D1630F691C271C /* ooVooUIKit.h */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
 		1159DD909781E53AC518C611432DF0CC /* Pods-ooVooUIKitPod_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,71 +76,31 @@
 			path = "Target Support Files/Pods-ooVooUIKitPod_Tests";
 			sourceTree = "<group>";
 		};
-		22F87E8031CDE17C50FB589D8CBD9865 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				F502DA621950ED246B1532048D2BD214 /* ooVooUIKit.framework */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		2F9BA58930B231D2D4B50A8E773D2690 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				A3908FAAF0F9FEDB5962C8BE87DE4C59 /* module.modulemap */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		333CE0C5083A231BAA58CBC8C083B106 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				22F87E8031CDE17C50FB589D8CBD9865 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		350E7C8CC6D589CE19043A2BCB0A4509 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				03227F66DC9AA82DF3A6BDF5A597E684 /* Info.plist */,
-				20531D0DD82620F8DE6FF148EEA95360 /* ooVooUIKitPod.modulemap */,
-				5DE23435B6283A4DB49C57100B87E461 /* ooVooUIKitPod.xcconfig */,
-				F6CDCC1AB8287512FB5F7CCA9A86D0C6 /* ooVooUIKitPod-dummy.m */,
-				222F60DE537C65AF4897FA4AE55FA668 /* ooVooUIKitPod-prefix.pch */,
-				40161C2486788AC50C19AD5DC2EC544E /* ooVooUIKitPod-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ooVooUIKitPod";
-			sourceTree = "<group>";
-		};
-		35AD59C88843F05338FC9C72519EE459 /* ooVooUIKitPod */ = {
-			isa = PBXGroup;
-			children = (
-				333CE0C5083A231BAA58CBC8C083B106 /* Pod */,
-				350E7C8CC6D589CE19043A2BCB0A4509 /* Support Files */,
-			);
-			name = ooVooUIKitPod;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				7F21DE5DCEE7518D495FBD1B8F6AC395 /* Development Pods */,
+				9B039C53D3BE18D52C46923FB569CED8 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				E34C6CFFAB78304465E4B292B897E77A /* Products */,
+				BE922ED4E33DCC71625EAED44B7280CC /* Products */,
 				CBCFCD89F61D119CB22B4BBECF55D57B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7F21DE5DCEE7518D495FBD1B8F6AC395 /* Development Pods */ = {
+		9B039C53D3BE18D52C46923FB569CED8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				35AD59C88843F05338FC9C72519EE459 /* ooVooUIKitPod */,
+				BAA6B806D6AFDC7853683D081CE98F9D /* ooVooUIKitPod */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BAA6B806D6AFDC7853683D081CE98F9D /* ooVooUIKitPod */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ooVooUIKitPod;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -206,6 +109,15 @@
 				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE922ED4E33DCC71625EAED44B7280CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DA9FFCD95D6CA991168334A717F4CC7 /* ooVooUIKitPod.bundle */,
+				80FB5128BE7162A98C6C9DCF5B329DE7 /* Pods_ooVooUIKitPod_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
@@ -224,60 +136,45 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E34C6CFFAB78304465E4B292B897E77A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				115E3ABD9E15F0B7073F4A75260BB387 /* ooVooUIKitPod.bundle */,
-				915AFDB60C04B151DB5B18585FE4329F /* ooVooUIKitPod.framework */,
-				9BC1756297C937ADB7EA78F1207CA75D /* Pods_ooVooUIKitPod_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F502DA621950ED246B1532048D2BD214 /* ooVooUIKit.framework */ = {
-			isa = PBXGroup;
-			children = (
-				FA2C62A6CC592567626F017F98F7F539 /* Info.plist */,
-				873D2056F27922E84B818B3DD1C0C6A8 /* ooVooChatViewController.nib */,
-				609218B382A4FDCF4B36EB244D8D4E53 /* ooVooUIKit */,
-				0FA324D348B3BF4FF2853808F9C40EC7 /* _CodeSignature */,
-				0FEACFBF0AD2F14E06748AAA2EA7FAB7 /* Headers */,
-				2F9BA58930B231D2D4B50A8E773D2690 /* Modules */,
-			);
-			path = ooVooUIKit.framework;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AA08567AAAF1CF55CC6A4538A5685038 /* Headers */ = {
+		84DC2079487FDFB1E8659820C2F57B81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3039B27BD3AE204A71EB4937EB65CC7F /* Message.h in Headers */,
-				4ECEFC642018AFEFA87A81E7DD89FA7C /* ooVooUIKit.h in Headers */,
-				DE76BC053F248A3B649603B397CCA556 /* ooVooUIKitPod-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE6A5F6A2EEE4179D6FB00E345A5A90C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D29A2294815387856876A884663BB322 /* Pods-ooVooUIKitPod_Tests-umbrella.h in Headers */,
+				9388B34C569259EFDFB28D6177F49140 /* Pods-ooVooUIKitPod_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0303205F5300AD0F5B8EB5535C2E2C68 /* ooVooUIKitPod-ooVooUIKitPod */ = {
+		6D471EDD1347780D65015E850018DD41 /* Pods-ooVooUIKitPod_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D11A811A800443463895E27DC753C79D /* Build configuration list for PBXNativeTarget "ooVooUIKitPod-ooVooUIKitPod" */;
+			buildConfigurationList = A5C3CA8CF852E54167D79C4FEA548B99 /* Build configuration list for PBXNativeTarget "Pods-ooVooUIKitPod_Tests" */;
 			buildPhases = (
-				645437149AD763D0837AC335AA9AFF60 /* Sources */,
-				563B38249FC763CF96D483B0C0A701B0 /* Frameworks */,
-				D6D66770390F9C76687DAEE7968022B4 /* Resources */,
+				990EADFF0347DF03C37752AC8E9FFB96 /* Sources */,
+				C1A4A90A25C43F6C39A1BDBCFFFDC784 /* Frameworks */,
+				84DC2079487FDFB1E8659820C2F57B81 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB4A918C70917AD349434386C69BAB8 /* PBXTargetDependency */,
+			);
+			name = "Pods-ooVooUIKitPod_Tests";
+			productName = "Pods-ooVooUIKitPod_Tests";
+			productReference = 80FB5128BE7162A98C6C9DCF5B329DE7 /* Pods_ooVooUIKitPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DD4AC0007C3331D8B2EFB661F8B9FFA /* ooVooUIKitPod-ooVooUIKitPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5F2FF3684B2A7C82EE4518D183C168 /* Build configuration list for PBXNativeTarget "ooVooUIKitPod-ooVooUIKitPod" */;
+			buildPhases = (
+				ABF2085DA434A066B1BC1FA90AB36C3D /* Sources */,
+				26CC25DDB9C7D5EA1236249A41B8A6AA /* Frameworks */,
+				A9E6CAC26F51B163A52C2D76C87745A5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -285,45 +182,8 @@
 			);
 			name = "ooVooUIKitPod-ooVooUIKitPod";
 			productName = "ooVooUIKitPod-ooVooUIKitPod";
-			productReference = 115E3ABD9E15F0B7073F4A75260BB387 /* ooVooUIKitPod.bundle */;
+			productReference = 0DA9FFCD95D6CA991168334A717F4CC7 /* ooVooUIKitPod.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		603D06CC38FE9315EE1D27C14106A720 /* ooVooUIKitPod */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 696118F7B1912127F68AC4F127DA8FE8 /* Build configuration list for PBXNativeTarget "ooVooUIKitPod" */;
-			buildPhases = (
-				39FD59E306F8BB26E0CB719CAAF919E1 /* Sources */,
-				42016CF8A5981F3D5EE14C4087FB29D0 /* Frameworks */,
-				B4915C18DACFACE4C0CEC7BE16FE67F6 /* Resources */,
-				AA08567AAAF1CF55CC6A4538A5685038 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C55F5828CA12E3F5E4A2D0657364BF70 /* PBXTargetDependency */,
-			);
-			name = ooVooUIKitPod;
-			productName = ooVooUIKitPod;
-			productReference = 915AFDB60C04B151DB5B18585FE4329F /* ooVooUIKitPod.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C87B51C79ACA1CEB99319740A3D3E0C9 /* Pods-ooVooUIKitPod_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2C49719293543469A1FD00FE687219EE /* Build configuration list for PBXNativeTarget "Pods-ooVooUIKitPod_Tests" */;
-			buildPhases = (
-				426EF47D80957CD0B134C5B29AEF8029 /* Sources */,
-				674E2B1E9CF959E3AF4BA0F77C738877 /* Frameworks */,
-				AE6A5F6A2EEE4179D6FB00E345A5A90C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F9B00AC4CA5DA6BBCF54CDE1A77C91D2 /* PBXTargetDependency */,
-			);
-			name = "Pods-ooVooUIKitPod_Tests";
-			productName = "Pods-ooVooUIKitPod_Tests";
-			productReference = 9BC1756297C937ADB7EA78F1207CA75D /* Pods_ooVooUIKitPod_Tests.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -342,27 +202,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E34C6CFFAB78304465E4B292B897E77A /* Products */;
+			productRefGroup = BE922ED4E33DCC71625EAED44B7280CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				603D06CC38FE9315EE1D27C14106A720 /* ooVooUIKitPod */,
-				0303205F5300AD0F5B8EB5535C2E2C68 /* ooVooUIKitPod-ooVooUIKitPod */,
-				C87B51C79ACA1CEB99319740A3D3E0C9 /* Pods-ooVooUIKitPod_Tests */,
+				7DD4AC0007C3331D8B2EFB661F8B9FFA /* ooVooUIKitPod-ooVooUIKitPod */,
+				6D471EDD1347780D65015E850018DD41 /* Pods-ooVooUIKitPod_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B4915C18DACFACE4C0CEC7BE16FE67F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6BA9FEFC9D7D8C8F26919903CE8E6A6C /* ooVooUIKitPod.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D6D66770390F9C76687DAEE7968022B4 /* Resources */ = {
+		A9E6CAC26F51B163A52C2D76C87745A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,28 +223,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		39FD59E306F8BB26E0CB719CAAF919E1 /* Sources */ = {
+		990EADFF0347DF03C37752AC8E9FFB96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				986D384EFD91556155220C1D0C7D0221 /* CodeResources in Sources */,
-				EFBE5DBD8F6684CB4D4051ADAC6FC99C /* Info.plist in Sources */,
-				5A1546F230CFDD136C50736E3FFED3AC /* module.modulemap in Sources */,
-				40FC05468815447A9BEDABA1A0378643 /* ooVooChatViewController.nib in Sources */,
-				D520956A9F14E6FDF4210A0EE537C57B /* ooVooUIKit in Sources */,
-				FA04C1EF49DD6C27BC2D2DCE90B3935E /* ooVooUIKitPod-dummy.m in Sources */,
+				13FE48CE1B627C7724AC5063730BAF91 /* Pods-ooVooUIKitPod_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		426EF47D80957CD0B134C5B29AEF8029 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9192C021FA85774FDFFD42157717AA0B /* Pods-ooVooUIKitPod_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		645437149AD763D0837AC335AA9AFF60 /* Sources */ = {
+		ABF2085DA434A066B1BC1FA90AB36C3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -403,91 +241,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C55F5828CA12E3F5E4A2D0657364BF70 /* PBXTargetDependency */ = {
+		2BB4A918C70917AD349434386C69BAB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ooVooUIKitPod-ooVooUIKitPod";
-			target = 0303205F5300AD0F5B8EB5535C2E2C68 /* ooVooUIKitPod-ooVooUIKitPod */;
-			targetProxy = 7D3EF8B9DEC3836EB81B7C5B82F93B7D /* PBXContainerItemProxy */;
-		};
-		F9B00AC4CA5DA6BBCF54CDE1A77C91D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ooVooUIKitPod;
-			target = 603D06CC38FE9315EE1D27C14106A720 /* ooVooUIKitPod */;
-			targetProxy = 01BBB008E0B0A68E44DAA5C43BD6875B /* PBXContainerItemProxy */;
+			target = 7DD4AC0007C3331D8B2EFB661F8B9FFA /* ooVooUIKitPod-ooVooUIKitPod */;
+			targetProxy = 60551E9804FD2295292AE4CA28C23AA7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		019FE41DDE3BCB2B63B94E683D5616C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DE23435B6283A4DB49C57100B87E461 /* ooVooUIKitPod.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ooVooUIKitPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		3DE932506F94A4553FDBB3A53AE1348A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DE23435B6283A4DB49C57100B87E461 /* ooVooUIKitPod.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ooVooUIKitPod/ooVooUIKitPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ooVooUIKitPod/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ooVooUIKitPod/ooVooUIKitPod.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ooVooUIKitPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		465DF88C8049DF61D1028894B8612655 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4027C966594A88A89FC64A6BB8133A64 /* Pods-ooVooUIKitPod_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ooVooUIKitPod_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ooVooUIKitPod_Tests/Pods-ooVooUIKitPod_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ooVooUIKitPod_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4D79EFAD40EC4A79E14FCAAF3FC748CA /* Debug */ = {
+		1034F8EAC2D74A8FFAE8C098AAA3F747 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2C240AFE10CB2D440B7D156D7843235F /* Pods-ooVooUIKitPod_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -516,6 +279,17 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		5E2760EC55354FE1C1E4CC80A838E431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ooVooUIKitPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -556,36 +330,8 @@
 			};
 			name = Debug;
 		};
-		AC34F8728747F05942C31DF2E1B20A74 /* Debug */ = {
+		F1953BCD4C129E3278B63D7B13D61F06 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DE23435B6283A4DB49C57100B87E461 /* ooVooUIKitPod.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ooVooUIKitPod/ooVooUIKitPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ooVooUIKitPod/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ooVooUIKitPod/ooVooUIKitPod.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ooVooUIKitPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BABCF505F14CE0D719A5096439D6A01F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DE23435B6283A4DB49C57100B87E461 /* ooVooUIKitPod.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = ooVooUIKitPod;
@@ -594,6 +340,36 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
+		};
+		FA881DD960351604F4C6BC3CF6812C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4027C966594A88A89FC64A6BB8133A64 /* Pods-ooVooUIKitPod_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ooVooUIKitPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ooVooUIKitPod_Tests/Pods-ooVooUIKitPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ooVooUIKitPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -632,15 +408,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C49719293543469A1FD00FE687219EE /* Build configuration list for PBXNativeTarget "Pods-ooVooUIKitPod_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D79EFAD40EC4A79E14FCAAF3FC748CA /* Debug */,
-				465DF88C8049DF61D1028894B8612655 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -650,20 +417,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		696118F7B1912127F68AC4F127DA8FE8 /* Build configuration list for PBXNativeTarget "ooVooUIKitPod" */ = {
+		8B5F2FF3684B2A7C82EE4518D183C168 /* Build configuration list for PBXNativeTarget "ooVooUIKitPod-ooVooUIKitPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC34F8728747F05942C31DF2E1B20A74 /* Debug */,
-				3DE932506F94A4553FDBB3A53AE1348A /* Release */,
+				F1953BCD4C129E3278B63D7B13D61F06 /* Debug */,
+				5E2760EC55354FE1C1E4CC80A838E431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D11A811A800443463895E27DC753C79D /* Build configuration list for PBXNativeTarget "ooVooUIKitPod-ooVooUIKitPod" */ = {
+		A5C3CA8CF852E54167D79C4FEA548B99 /* Build configuration list for PBXNativeTarget "Pods-ooVooUIKitPod_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BABCF505F14CE0D719A5096439D6A01F /* Debug */,
-				019FE41DDE3BCB2B63B94E683D5616C1 /* Release */,
+				1034F8EAC2D74A8FFAE8C098AAA3F747 /* Debug */,
+				FA881DD960351604F4C6BC3CF6812C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

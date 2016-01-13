@@ -1,6 +1,6 @@
 {
   "name": "ooVooUIKitPod",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "ooVooUIKitPod Helps the developer create a ui for oovoo sdk.",
   "description": "Now you can create easly a UI  for oovoo sdk framework Just use pull this pod and enjoy",
   "homepage": "https://github.com/udiLevyCodeValue/ooVooUIKitPod",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/udiLevyCodeValue/ooVooUIKitPod.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"

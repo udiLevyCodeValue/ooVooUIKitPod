@@ -1,6 +1,0 @@
-framework module ooVooUIKitPod {
-  umbrella header "ooVooUIKitPod-umbrella.h"
-
-  export *
-  module * { export * }
-}

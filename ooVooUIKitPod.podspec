@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ooVooUIKitPod"
-  s.version          = "0.1.0"
+  s.version          = "0.1.2"
   s.summary          = "ooVooUIKitPod Helps the developer create a ui for oovoo sdk."
 
 # This description is used to generate tags and improve search results.
