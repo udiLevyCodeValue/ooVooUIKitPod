@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2056637292C6ADF997EDF8B0'
+               BlueprintIdentifier = '16328189E0BD0C1B012FC28F'
                BlueprintName = 'ooVooUIKitPod'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ooVooUIKitPod.framework'>

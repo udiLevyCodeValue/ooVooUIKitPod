@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ooVooUIKitPod: 178ae449dd842b20e6a6b94574ee7aa0b87a4884
+  ooVooUIKitPod: f4f330f87dfa8fd527c21ee1ae4a45d660af1ef9
 
 COCOAPODS: 0.39.0
